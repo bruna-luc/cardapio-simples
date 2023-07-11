@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+header,
+menu,
+span,
+.card {
+  display: flex;
+}
+body {
+  flex-direction: column;
+  align-items: center;
+  background-color: #20170e;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+header,
+menu {
+  align-items: center;
+  justify-content: space-around;
+}
+header {
+  font-size: 64px;
+  color: #f3dfa0;
+}
+header img {
+  width: 230px;
+}
+menu {
+  width: 100%;
+}
+menu a {
+  background-color: #f3dfa0;
+  color: black;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+menu span,
+.price {
+  background-color: #f3dfa0;
+  width: 130px;
+  justify-items: center;
+  border-radius: 24px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.description {
+  font-family: "Roboto Slab", serif;
+}
+.card {
+  align-items: center;
+  color: #eaeaea;
+  width: 690px;
+}
+.card img {
+  width: 200px;
+  height: 176px;
+  margin: 24px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 176px;
+}
+h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.card .like {
+  width: 32px;
+  height: 32px;
+}
+.price {
+  height: 37px;
+  width: 75px;
+  color: #20170e;
+}
+.likePrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section > p {
+  text-transform: uppercase;
+  color: #f3dfa0;
+  font-size: 36px;
+}
