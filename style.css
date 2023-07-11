@@ -24,11 +24,11 @@ menu {
   justify-content: space-around;
 }
 header {
-  font-size: 64px;
+  font-size: 4rem;
   color: #f3dfa0;
 }
 header img {
-  width: 230px;
+  width: 14.375rem;
 }
 menu {
   width: 100%;
@@ -36,7 +36,7 @@ menu {
 menu a {
   background-color: #f3dfa0;
   color: black;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Roboto", sans-serif;
   list-style: none;
   text-decoration: none;
@@ -44,10 +44,10 @@ menu a {
 menu span,
 .price {
   background-color: #f3dfa0;
-  width: 130px;
+  width: 8.125rem;
   justify-items: center;
-  border-radius: 24px;
-  height: 50px;
+  border-radius: 1.5rem;
+  height: 3.125rem;
   align-items: center;
   justify-content: center;
 }
@@ -57,30 +57,30 @@ menu span,
 .card {
   align-items: center;
   color: #eaeaea;
-  width: 690px;
+  width: 43.125rem;
 }
 .card img {
-  width: 200px;
-  height: 176px;
-  margin: 24px;
+  width: 12.5rem;
+  height: 11rem;
+  margin: 1.5rem;
 }
 .product {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 176px;
+  height: 11rem;
 }
 h2 {
-  font-size: 32px;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 .card .like {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
 }
 .price {
-  height: 37px;
-  width: 75px;
+  height: 2.3125rem;
+  width: 4.6875rem;
   color: #20170e;
 }
 .likePrice {
@@ -91,5 +91,5 @@ h2 {
 section > p {
   text-transform: uppercase;
   color: #f3dfa0;
-  font-size: 36px;
+  font-size: 2.25rem;
 }
